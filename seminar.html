@@ -1,0 +1,990 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Mobile Phone computing and IoT/WoT</title>
+		<meta name="description" content="Presentation for Seminar">
+		<meta name="author" content="Rajesh R Nair">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<!--link rel="stylesheet" href="lib/css/zenburn.css"-->
+
+		<style type="text/css">
+		    u {
+		    	text-decoration: underline;
+		    	color:white;
+		    }
+			div.center-justified {
+  				text-align: center;
+  				margin: 0 auto;
+  				width: 30em;
+			}
+			div.absolute_frame {
+				position: relative;
+
+				right:  50px;
+				width: 960px;
+				height: 450px;
+				/*border: 3px solid #73AD21;*/
+			}
+			div.sub_frame_pos_1 {
+				position: absolute;
+				left: 10px;
+				width: 180px;
+				height: 450px;
+				/*border: 3px solid #73AD21; */
+			}
+			div.sub_frame_pos_2 {
+				position: absolute;
+				left:  200px;
+				width: 180px;
+				height: 450px;
+				/*border: 3px solid #73AD21;*/
+			}
+			div.sub_frame_pos_3 {
+				position: absolute;
+				left: 390px;
+				width: 180px;
+				height: 450px;
+				/*border: 3px solid #73AD21;*/
+			}
+			div.sub_frame_pos_4 {
+				position: absolute;
+				left: 580px;
+				width: 180px;
+				height: 450px;
+				/*border: 3px solid #73AD21;*/
+			}
+			div.sub_frame_pos_5 {
+				position: absolute;
+				left: 770px;
+				width: 180px;
+				height: 450px;
+				/*border: 3px solid #73AD21;*/
+			}
+			div.sub_sub_frame_pos_bottom {
+				position: absolute;
+				widows: 200px;
+				top: 300px;
+			}
+		</style>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Title slide -->
+				<section >
+				<div style="z-index: 11;"><h3>Mobile phone computing and IoT</h3></div>
+				
+				<div >
+					<p>Seminar Presentation</p>
+				</div>
+				
+                <p style="font-weight: bold; position: absolute; left:0px; top:265px; ">Guide :</p>
+				<br><div style="position: left; width: 400px; left: 0px; ;">
+					
+					<p style="font-style: italic;position:absolute;top:325px ">Varun G Menon<br> Assistant Professor</p> 
+				</div>	           
+				<p style="font-weight: bold;position: absolute; left: 500px; top:265px">Presented by:</p>
+				<br><div style="font-style: italic; position: absolute; width: 400px; right: 0px; top: 325px;">
+					
+					<p> Rajesh R Nair
+					<br>S7 ,CS-2, Roll No:26
+					<br>Batch No :12 
+					</p>
+				</div> 
+				
+				</section>
+		         
+		        <!-- Introduction -->
+				<section >
+
+					<h1 style="position: relative;"> INTRODUCTION </h1>
+					    
+				</section> 	
+
+				
+   
+			    
+				<!-- Intro Points -->
+
+				<section >
+                
+                 <ul>
+                   <li><font size="+3">Technologies such as wireless sensor networks,shortrange wireless communications,and radio-frequency identification (RFID) have allowed the Internet to penetrate in embedded computing</font>
+                   </li>  
+                   <li><font size="+3">The rise of multisensory mobile phones with Internet connectivity has helped to reduce the barriers for associating mobile computing with the IoT/WoT</font></li>
+                   
+                 </ul>  
+                
+				</section>
+           
+                <section >
+                
+                <div style="position: absolute; width :450px;height: 450px;left: 10px;">
+					    <img src="figures/background/800px_COLOURBOX18440520.jpg">
+					</div>
+					<div style="position: relative; width :450px;height: 450px;left: 500px;">
+					    <img src="figures/background/internet-things-concept-cloud-computing-technology-networking-apps-73031558.jpg">
+					</div> 
+                
+				</section>
+
+                          
+				<!-- Internet of things-->
+
+				<section>
+				 <div style="position: absolute; width: 960px;height:450px;top:0px:left:0px">	
+					
+					<h2 style="position:relative;font-weight:bold;">Internet Of Things</h2>
+					<div style="position:relative;font-size:+3">
+					<ul>
+                        <li><p>Internet of thing is that things can communicate to each other without human.</p></li>
+						<li><p class="fragment">Internet of things targets to connect various objects (e.g. mobile phones, computers, cars, appliances) with unique addresses, to enable them interacting with each other and with the world.</p>
+						</li>
+						
+					</ul>
+					</div>
+				</section>
+				
+				<!-- IOt the basic -->
+                <section >
+
+						<img src="figures/iotbasic/iot basics.jpg" style="width: 700px;height: 500px">
+						</img>
+				</section>
+
+				<!-- Macroscopic Model Slide -->
+
+				<section >
+					<h2>Mobile Phone Computing and IOT/WOT</h2>
+					<h4>Application Catagories</h4>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<img src="figures/iotbasic/appcatagories.png" style="width:700px;height: 500px">
+						
+					</div>
+				</section>
+
+						
+				<!-- Optimal Control Problem Slide -->
+
+				<section >
+					<h2>Participatory Sensing</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>Applications that enable individuals in the general public to gather, analyze and share local information
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Noise Tube Project[1]</li>
+
+					    </ul>  
+					</div>
+				</section>
+                
+                <section >
+					<h3>Noise Tube Project</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  Help monitor noise pollution wherever you live.</p></li>
+						  <li style="font-weight: bold"><p>TASK  :  Measure and map your daily noise exposure with a mobile app.</p>
+						  </li>
+                          <li style="font-weight: bold"><p>DESCRIPTION : <ul>
+                                                                           <li>Developed in Sony Computer Science Lab </li>
+                                                                           <li>Facilitates sound measuring at any place and any time through a mobile app which exploits basic smartphone functionalities, namely microphone, wireless connectivity and localisation through GPS.</li>
+                                                                           <li> NoiseTube website collects all user measurements and visualises them on Google Maps.</li>
+						                                                   <li>Resulting maps give an average but not at all a complete view on the situation.</li>
+						                                                   <li>Free and Open Source.</li>
+						                                                   
+                                                                         </ul>
+						
+						
+						 
+					</div>
+				</section>
+				
+
+				<section >
+				    <h2>Noise Tube Project</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/noisetube/noisetube.png" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 1.Sound exposure through the NoiseTube project [22].</figcaption>
+				    	
+					
+				</section>	
+				
+
+				<!-- Ecofeedback -->
+				<section >
+					<h2>Eco Feedback</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>Involves mobile applications that provide feedback to the users about various environmental phenomena or events, or about their personal consumption
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>UbiLense[2]</li>
+
+					    </ul>  
+					</div>
+				</section>
+                
+                <section >
+					<h3>UbiLense</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  Help monitor energy consumption of electrical and electronic devices.</p></li>
+						  <li style="font-weight: bold"><p>TASK  :  Measure energy consumed by an electrical device just by pointing on them using a phone camera</p>
+						  </li>
+                          <li style="font-weight: bold"><p>DESCRIPTION : <ul>
+                                                                           <li>Mobile phone sends the camera image to the image recognition server.
+                                                                           </li>
+						                                                   <li>Server returns name and associated Plogg
+                                                                               ID of the recognized object.</li>
+                                                                           <li>Mobile phone requests current energy
+                                                                               consumption from associated Plogg.</li>      
+                                                                         </ul>
+						
+						
+						 
+					</div>
+				</section>
+
+                <section >
+				    <h2>UbiLense</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/ecofeedback/Ubilensearchi.png" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 2.Ubilense architecture</figcaption>
+				    	
+					
+				</section>	
+
+				<section >
+					<h2>Actuation and Control</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>Related to mobile applications that control some physical devices or actuate some events related to these devices.A typical example is home automation applications
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Planty[3]</li>
+
+					    </ul>  
+					</div>
+				</section>		
+	            
+                <section >
+					<h3>Planty</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  Monitoring growth of plants in a garden and providing guidelines for setting up a garden.</p></li>
+						  <li style="font-weight: bold"><p>TASK  :  Ensure healthy enviroment for plants to grow and helping users to grow garden. </p>
+						  </li>
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Sensors of Planty measure temperature, soil moisture, and illuminance.</li>
+                                                                           <li>Monitor growth environment of the plant</li>
+                                                                           <li>Remote Watering
+                                                                           </li>
+                                                                           <li>Smart Alarm.</li>
+                                                                           <li>Tips for gardening</li>
+                                                                           <li>Receive reports of your gardening activities and compare them with those of others.</li>
+                                                                         </ul>   
+
+						                                                   
+                                                                                
+                                                                         
+						
+						
+						 
+					</div>
+				</section>
+
+		        <section >
+				    <h2>Planty</h2>
+				    <div style="">
+				    <div style="position:absolute;width:1000px ;height: 700px;">
+				      <img src="figures/planty/planty.png" style="width:300px;height:450px;left: 0px">
+				      <figcaption style="font-size: 30px ">fig 3.Planty Mobile App</figcaption>
+				      
+					
+				</section>
+			    
+                <section >
+				    <h2></h2>
+				    <div style="">
+				    <div style="position:absolute;width:1000px ;height: 700px;">
+				      <img src="figures/planty/potsaucer.png" style="width:700px;height:450px;left: 0px">
+				      <figcaption style="font-size: 30px ">fig 4.Pot Saucers equipped with sensors</figcaption>
+				      
+					
+				</section>
+
+			    <section >
+					<h2>Health</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>The mobile phone acts as an intermediary between body sensors and the Web.It receives information about the health status of the user, measured by various sensor devices installed on the body of the user and then uploads/shares this information to the Web for better analysis, comparisons and feedback.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>My Health Assistant[4]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>My Health Assistant</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  Maintaining or improving the state of your health by monitoring a wide range of health parameters.</p></li>
+						  
+						  
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Tracking of: weight, body water and fat, waist size, height, blood pressure, body, temperature.</li>
+                                                                           <li>Calculation of a relative overall health index.</li>
+                                                                           <li>Average daily statistic
+                                                                           </li>
+                                                                           <li>Creating health reports</li>
+                                                                           <li>Medication taking: planning , remainders, watching.</li>
+                                                                           <li>Creating health diaries</li>
+                                                                         </ul>   
+
+						                                                   
+                                                                                
+                                                                         
+						
+						
+						 
+					</div>
+				</section>
+                
+
+			    <section >
+				    <h2>Myhealth Assistant</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/health/myhealth.png" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 5.My Health Assistant App</figcaption>
+				    	
+					
+				</section>
+				
+				<section >
+					<h2>Sports</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>Includes a combination of physical sensors and mobile applications which are used during sport activities to record various metrics and help to improve the performance of the athlete user.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Bike Net[5]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>Bike Net Application</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  Give a holistic picture
+                                                         of the cyclist experience, not only by measuring various
+                                                        metrics,but also by sharing this information within the online
+                                                        cycling community</p></li>
+						  
+						  
+                          <li style="font-weight: bold"><p>DESCRIPTION : <ul>
+                                                                            
+                                                                             <li>Cyclist Experience mapping</li>
+                                                                               <ul> 
+                                                                                 <li>By tracking wheel 
+                                                                                     gear, & pedal speed 
+                                                                                     vs. slope, they were 
+                                                                                     able to derive a 
+                                                                                     level of fitness</li>
+                                                                               </ul>
+                                                                              <li> Collects and analyzes personal cyclist performance 
+                                                                                   and communal environment data.</li>
+                                                                              <li>Web portal provides social networking among other 
+                                                                                  cyclists</li>     
+                                                                           </li>
+                                                                         </ul>   
+
+						                                                   
+                                                                                
+                    </div>
+				</section>                                                    
+						
+						
+						 
+					
+               
+
+			    <section >
+				    <h2>Bike Net</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/sports/bikenet.png" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 6.Bike net Application   </figcaption>
+				    	
+					
+				</section>
+
+				<section >
+					<h2>Agriculture</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>Related to smart farming practices to improve productivity, management of livestock and increase consumer satisfaction and transparency
+
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Herdwatch[6]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>HerdWatch</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>GOAL  :  A herd management system
+                                                           which allows cattle farmers manage their beef or dairy
+                                                           herds via a smartphone or tablet.</p></li>
+						  
+						  
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Easy Remedy and Feed Purchase Compliance for Cattle and Sheep</li>
+                                                                           <li>Easy Sprays Compliance for new pesticides regulations
+                                                                           </li>
+                                                                           <li>Fast Weight Recording and Analysis
+                                                                           </li>
+                                                                           <li>Herd Management & Reports
+                                                                               </li>
+                                                                           
+                                                                         </ul>   
+
+						                                                   
+                                                                                
+                                                                         
+						
+						
+						 
+					</div>
+				</section>
+
+			    <section >
+				    <h2>Herdwatch</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/agriculture/herdwatch.png" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 7.Farmer controlling the cattle using the app</figcaption>
+				    	
+					
+				</section>
+
+                <section >
+					<h2>Gaming</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p>This category is about virtual games which consider the physical presence or status of the mobile user to enhance the gaming experience.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Minecraft</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+			    <section >
+				    <h2>Minecraft</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/game/minecraft.jpg" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 8.Minecraft game being played in Virtual Reality</figcaption>
+				    	
+					
+				</section>
+
+				 <section >
+					<h2>Transportation</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p> A growing domain in which the sensing features of the mobile phone are harnessed for better driving experience and convenience of parking.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Waze[7]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>Waze</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>Provides up-to-date traffic conditions, live-routing and maps, compre-
+                                                        hensive voice-assisted navigation, alerts about road hazards,
+                                                        and even notifications when a Facebook friend is heading
+                                                         toward the same destination.</p></li>
+
+						                                 
+						  
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Automatically reroute around traffic as conditions change on the road</li>
+                                                                           <li> Know how long your drive will take before you start driving 
+                                                                           </li>
+                                                                           <li>Find gas stations and the cheapest gas prices on your drive
+                                                                           </li>
+                                                                           <li>Get a sound alert if you exceed the speed limit with the speedometer
+                                                                               </li>
+                                                                            <li>Save time looking for parking with Waze parking suggestions by your destination</li>   
+                                                                           
+                                                                         </ul>   
+
+						                                                   
+                                                                                
+                                                                         
+						
+						
+						 
+					</div>
+				</section>
+
+			    <section >
+				    <h2>Waze</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/transport/waze.jpg" style="width:700px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 9.Waze app</figcaption>
+				    	
+					
+				</section>
+
+				<section >
+					<h2>Interactions with things</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p> This is the broader category as it relates to efforts which focus on interacting with Web-enabled physical entities available in the nearby environment, as for example tagging technologies.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>Pay Pal[8]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>PayPal</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p>PayPal offer credit card payment
+                                                           systems connected directly to mobile phones.</p></li>
+
+						                                 
+						  
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Send money or pay online to almost anywhere in the world in just seconds</li>
+                                                                           <li> Send a request for money that allows people to pay you back with just a tap. 
+                                                                           </li>
+                                                                           <li>transfer money from anywhere any time
+                                                                           </li>
+                                                                           
+                                                                           
+                                                                         </ul>   
+
+						 
+					</div>
+				</section>		                                                   
+                                                                                
+                                                                         
+						
+						
+				
+
+
+
+			    <section >
+				    <h2>Pay Pal</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/others/paypal.png" style="width:300px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 10.PayPal app</figcaption>
+				    	
+					
+				</section>
+
+				<section >
+					<h2>Social Interactions With People</h2>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<p> TIf we broaden the WoT to involve humans, we can identify various mobile apps that combine information from online social networking sites with information from the mobile phones of nearby users, to offer an augmented social experience.
+						</p>
+						<h3>Application</h3>
+						<ul>
+						  <li>CenceMe[9]</li>
+
+					    </ul>  
+					</div>
+				</section>
+			    
+                <section >
+					<h3>CenceMe</h3>
+					<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+						<ul>
+						  <li style="font-weight: bold"><p> CenceMe is the first application that integrates sensing of human activity into social networks.</p></li>
+
+						                                 
+						  
+                          <li style="font-weight: bold"><p>FEATURES : <ul>
+                                                                           <li> Automatically discerns human activity (e.g., sitting, standing, walking, and running)</li>
+                                                                           <li> shares the activity, audio presence, weather condition, location, and more with Facebook 
+                                                                           </li>
+                                                                           <li>can add friends to the friend list
+                                                                           </li>
+                                                                           
+                                                                           
+                                                                         </ul>   
+
+						 
+					</div>
+				</section>	
+
+
+			    <section >
+				    <h2>CenceMe</h2>
+				    <div style="">
+				    <div style="position:absolute;width:960px ;height: 700px;left :0px;">
+				      <img src="figures/social/cenceme.png" style="width:800px;height:450px;position:relative;">
+				      <figcaption style="font-size: 30px ">fig 11.CenceMe app</figcaption>
+				    	
+					
+				</section>
+				
+				<!-- Discussions and Issues -->
+
+
+				<section >
+					<h1 style="font-weight: bold;">Discussions and Issues</h1>
+					
+				</section>
+
+                
+				
+
+                <!-- Open Issues -->
+                <section >
+				<h3></h3>
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">HETEROGENITY:</u><br><ul><li>It is because of the Iot devices/services that provides propreitary communication protocols</li>
+				    <li>Needs regarding the data quality and content always change from person to person</li>
+                    <li>Some users need real time information and others need historical data</li>
+                    
+                    <li>So IoT and mobile phone computing need to be open to support diverse applications and
+                    requirements.</li>
+                    </ul>
+				</div>
+				</section>
+
+
+                    
+                    
+                   
+				
+				<section  >
+				
+                <div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">CONTINUOS SENSING:</u><br><ul><li>Some IoT/WoT-enabled mobile
+                            applications require continuous sensing, signal processing,
+                            analysis and inference which asks for more computation,
+                            memory, storage, sensing, and communication bandwidth.</li>
+                    <li>Sending the compressed summaries over the air (rather than raw data)</li>
+                                           
+                    
+				    </ul>
+                    
+                     
+				</div>
+				</section>
+                
+                <section>  
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">CROWD SENSING:</u><br><ul><li>How can the sensing opportunities and sensing quality be measured?</li>
+                    <li>How to deal with incomplete, noisy and unreliable data?</li>
+                    <li>How many mobile users can provide enough sensing opportunities to achieve the required sensing quality?</li>
+                    <li>How to tackle the fact that people always move around a set of popular locations, instead of purely random movements?</li>
+                    
+                    
+				    </ul>
+                    
+                     
+				</div>
+				</section>
+             
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">CONTEXT PROBLEM:</u><br><ul><li>This occurs because phones may be
+                      exposed to events for too short a period of time.</li>
+                    <li>The sensors might requires more time to gather a sample.</li>
+                    <li>Phone calls could also interfere in collecting relevant context.</li>
+
+                    
+                    </ul> 
+				</div>
+				</section>
+				
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">SECURITY:</u><br><ul><li>Top priority in mobile computing, and
+                            becomes more important when interacting with the IoT.</li>
+                    
+                    <li>Ensuring security of shared
+                          resources against misuse
+                          by unauthorized mobile users.</li>
+                    
+                    </ul>
+				</div>
+				</section>
+
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">PRIVACY:</u><br><ul><li>Privacy in terms of sharing personal information
+                              through the Web is one of the most important
+                              research challenges. </li>
+                    <li>Privacy threats have been reported in various mibile applications </li>
+                    <li>Create authentication proxy between the user and the conected device</li>
+                    
+                    </ul> 
+				</div>
+				</section>
+
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li><u style="font-weight: bolder;">RELIABILITY:</u><br><ul><li>Reliability relates how well a mobile phone can measure precisly and identify anomalies.</li>
+                    <li>Faults in data can create false alarms.</li>
+                    
+                    </ul>
+				</div>
+				</section>
+				
+				<section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">SEARCH AND DISCOVERY:</u><br><ul><li>It is crucial for locating
+                        nearby, local and relevant real-world devices and people
+                        exploiting their services for the creation of more
+                        advanced knowledge.</li>
+                    <li >The WoT has not yet standardized
+                        any technique for real time discovery of physical entities
+                        and their services</li>
+                    
+                    </ul>
+				</div>
+				</section>
+                
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">PERSONALIZATION:</u><br><ul><li>It is expected to give significance to the interaction with the IoT/WoT through mobile computing </li>
+
+
+                    <li>Planty could understand the user’s sense of aesthetics and help him create his personal garden.</li>
+
+                    <li>Sports apps could record the personal characteristics and achievements of the users to suggest realistic short and long-term goals.</li>
+
+
+
+                    <li>Mobile computing, personalized to a user’s profile, empowers him/her to make more informed decisions across a spectrum of WoT-enabled services.</li>
+
+
+                   
+                    </ul> 
+				</div>
+				</section>
+                
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">EMOTIONS ANALYSIS:</u><br><ul><li>It relates to personalization as it
+                                 allows to offer better services to users according to their
+                                 reactions in relation to the features provided by the mobile
+                                 applications.</li>
+                    <li>Research in this area involves sensing conscious and unconscious emotions
+                                     , aiming to quantify and log aspects of our behavior we are not aware of.</li>
+                                                            
+                    
+                    </ul>
+				</div>
+				</section>
+                
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">PERSUASION:</u><br><ul><li>Persuasion in mobile computing is an open area, creating design elements and exploiting various psychological/sociological factors which affect users to change their behavior toward better quality of living, more sustainable life, environmental awareness, etc.</li>
+
+
+
+
+                    <li>The connection between mobile computing and IoT/WoT offers great new opportunities for examining which design characteristics of mobile phone applications and which motivational factors may influence users to question and change their behavior and way of living.</li>
+
+
+                  </ul>
+				</div>
+				</section>
+
+
+                     
+                   
+                
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">BIG DATA ANALYSIS:</u><br><ul><li>It is a necessary step in most
+                    participatory sensing applications, in order to extract useful information from vast amounts of real-world data streams.</li>
+
+                    <li> An open, standard methodology for IoT analytics problems is still nonexistent.</li>
+
+                    
+                    </ul> 
+				</div>
+				</section>
+                
+                <section  >
+			
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				   <li><u style="font-weight: bolder;">BUSINESS CASES:</u><br><ul><li>These are required to prove the market potential of the IoT/WoT and mobile computing</li>
+
+                    <li>Merging of digital and physical world through Web technologies and mobile computing is profitable to
+                     enterprises worldwide.</li>
+
+                    <li>Evrythng is a start-up company aiming to demonstrate, through various case studies , the economic viability of IoT based investments.</li>
+
+
+                    <li>Solutions offered : brand protection, inventory management, consumer loyalty, data monitoring and
+                       analysis, etc.</li>
+
+                    
+                    </ul>
+				</div>
+				</section>
+               
+
+                <section  >
+			    <h2>CONCLUSION</h2>
+				<div style="position: absolute; width: 960px; height: 450px; left: 0px; font-size: 30px;">
+				  <ul>
+				    <li>The practice of combining mobile computing and the IoT/WoT seems to offer tremendous new opportunities in many real-life domains</li>
+                    <li>Enabling the seamless integration of devices, services and information that can create advanced knowledge, more informed reasoning and decision-making,as well as encouraging big data analysis, more use of persuasive and engagement techniques, emotions analysis and personalization </li>
+.
+
+
+
+
+                    <li>
+                    However, this openness comes together with various risks in privacy, security and reliability of information,and also various challenges
+                     </li> 
+				</div>
+				</section>
+
+                <section  >
+			    <h1>THANK YOU</h1>
+				
+				</section>
+
+				<section  >
+			    <h3>REFERENCE</h3>
+			    <div style="font-size: 20px">
+			     <ul>
+				  <li>[1] : N. Maisonneuve, M. Stevens, M. E. Niessen, P. Hanappe, and L. Steels,
+                 “Citizen noise pollution monitoring,” in Proc. 10th Annu. Int. Conf.
+                   Digit. Gov. Res., Puebla, Mexico, 2009, pp. 96–103.  </li>
+				  <li>[2] :M. Jahn et al., “The energy aware smart home,” in Proc. 5th Int. Conf.
+                    Future Inf. Technol. (FutureTech), Busan, South Korea, May 2010,
+                    pp. 1–8.  </li>
+                   <li>[3] : N. Thing. (2016). Planty. [Online]. Available: https://nthing.net/planty</li> 	
+				   <li>[4] : C. Seeger, A. Buchmann, and K. Van Laerhoven, “myHealthAssis-
+                             tant: A phone-based body sensor network that captures the wearer’s
+                              Netw. (BodyNets), Beijing, China, 2011, pp. 1–7</li>
+                   <li>[5] : S. B. Eisenman et al., “Bikenet: A mobile sensing system for cyclist
+                            experience mapping,” ACM Trans. Sensor Netw., vol. 6, no. 1, 2009,
+                             Art. no. 6.</li>
+                   <li>[6] : Herdwatch. (2016). [Online]. Available: https://www.herdwatch.ie/</li>
+                   <li>[7] : Waze Mobile.2016 waze.[Online].Available: https://www.waze.com/ </li>
+                   <li>[8] : PayPal here.(2016).[Online].Available: https://www.paypal.com/webapps/mpp/credit-card-reader</li>
+                   <li>[9] : E. Miluzzo et al., “Sensing meets mobile social networks: The design, implementation and evaluation of the Cenceme application,”in Proc. 6th ACM Conf. Embedded Netw. Sens. Syst., Raleigh, NC,USA, 2008, pp. 337–350.</li>
+
+
+
+
+                 </ul>
+      
+				</section>
+
+				
+
+				
+			</div>
+		</div>
+
+		<h2>&nbsp;</h2>
+		<p>
+		  <script src="lib/js/head.min.js"></script>
+		  <script src="js/reveal.js"></script>
+		</p>
+	    <script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				// Display the page number of the current slide
+				slideNumber: true,
+
+				math: {
+				//mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+				config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+				},
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		  </script>
+		  <script type="text/javascript">
+		  	// my javascript
+
+		  </script>
+	</body>
+</html>
