@@ -1,0 +1,3 @@
+for f in `find . -name '*.eps'`; do
+     echo $f;
+done
